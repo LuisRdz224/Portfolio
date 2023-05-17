@@ -1,0 +1,134 @@
+.profile-pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.centered-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.info{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
+/* Linkedin */
+.css-button-sliding-to-top--linkedin {
+    min-width: 130px;
+    /* height: 40px; */
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #008BF8;
+    color: #008BF8;
+  }
+  .css-button-sliding-to-top--linkedin:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-top--linkedin:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-top--linkedin:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #008BF8;
+  }
+
+  /* WhatsApp */
+.css-button-sliding-to-top--whatsapp {
+    min-width: 130px;
+    /* height: 40px; */
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #04E762;
+    color: #04E762;
+  }
+  .css-button-sliding-to-top--whatsapp:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-top--whatsapp:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-top--whatsapp:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #04E762;
+  }
+
+  /* Github */
+.css-button-sliding-to-top--github {
+    min-width: 130px;
+    /* height: 40px; */
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #24292e;
+    color: #24292e
+  }
+  .css-button-sliding-to-top--github:hover {
+    color: #fff;
+  }
+  .css-button-sliding-to-top--github:hover:after {
+    height: 100%;
+  }
+  .css-button-sliding-to-top--github:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #24292e;
+  }
+  .contact a{
+    text-decoration: none;
+    /* color: #ffd819; */
+  }

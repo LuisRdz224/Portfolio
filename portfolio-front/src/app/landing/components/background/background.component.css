@@ -16,8 +16,9 @@
     font-weight: 700;
     text-align: center;
     width: 100vw;
-    top: 50%;
+    bottom: 50%;
     font-size: 24px;
+    z-index: 1;
   }
   .parallax {
     height: 100vh;
