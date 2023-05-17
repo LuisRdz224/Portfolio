@@ -1,12 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingComponent } from './components/landing/landing.component';
+import { LandingComponent } from './components/background/background.component';
+import { BioComponent } from './components/bio/bio.component';
 
 
 
 @NgModule({
   declarations: [
-    LandingComponent
+    LandingComponent,
+    BioComponent
   ],
   imports: [
     CommonModule
