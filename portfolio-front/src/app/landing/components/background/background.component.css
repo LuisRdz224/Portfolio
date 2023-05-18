@@ -10,22 +10,23 @@
   ::-webkit-scrollbar {
       display: none;
   }
-  .fixed {
-    position: fixed;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    width: 100vw;
-    bottom: 50%;
-    font-size: 24px;
-    z-index: 1;
-  }
   .parallax {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 1px;
     perspective: 1px;
+  }
+  .information{
+      position: relative;
+      color: white;
+      font-weight: 700;
+      text-align: center;
+      width: 100vw;
+      /* bottom: 50%; */
+      font-size: 24px;
+      z-index: 1;
+
   }
 
   .parallax__layer {
